@@ -138,8 +138,8 @@ export default {
             this.$fireModule.auth.grecaptcha.reset(widgetId);
           })
 
-        } 
-
+        }, 
+        this.$router.push('/main-menu')
         )
     },
     confirma_codigo () {
